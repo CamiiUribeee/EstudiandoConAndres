@@ -1,0 +1,3 @@
+192214; laptop ryzen; 20; 1500 
+124563; iphone X; 12; 1000  
+180934; airpords; 3; 500
