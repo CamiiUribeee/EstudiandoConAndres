@@ -30,9 +30,9 @@ public class EmpresaElectronica {
         List <String> sales = salesManage.loadSales();
         
         for (String line : sales){
-            String [] splited = new String[5];
+            String [] splited = new String[4];
             splited = line.split(";");
-            System.out.println("VENTAS: "+ splited[0] + " " + splited[1] + " " + splited[2] + " " + splited[3] + " " + splited[4]);
+            System.out.println("VENTAS: "+ splited[0] + " " + splited[1] + " " + splited[2] + " " + splited[3]);
             
         }
         
