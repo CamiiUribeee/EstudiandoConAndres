@@ -8,6 +8,7 @@
 
 package com.mycompany.empresaelectronica;
 
+import com.mycompany.empresaelectronica.salesProcessing.AppendToFile;
 import com.mycompany.empresaelectronica.salesProcessing.SalesManage;
 import java.io.File;
 import java.io.IOException;
@@ -35,6 +36,14 @@ public class EmpresaElectronica {
             System.out.println("VENTAS: "+ splited[0] + " " + splited[1] + " " + splited[2] + " " + splited[3]);
             
         }
+        
+        System.out.println("¿Desea agregar alguna actualización de venta al final?");
+
+
+
+        AppendToFile appender = new AppendToFile(file);
+        appender.addLineToEOF("192208; Apple Pencil; 4; 50");
+
         
         
     }
